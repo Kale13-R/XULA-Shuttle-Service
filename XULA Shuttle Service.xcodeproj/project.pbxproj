@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34ADE82B2BB3BF0E005840EC /* XULA_Shuttle_ServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE82A2BB3BF0E005840EC /* XULA_Shuttle_ServiceApp.swift */; };
+		34ADE82D2BB3BF0E005840EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE82C2BB3BF0E005840EC /* ContentView.swift */; };
+		34ADE82F2BB3BF10005840EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34ADE82E2BB3BF10005840EC /* Assets.xcassets */; };
+		34ADE8322BB3BF10005840EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34ADE8312BB3BF10005840EC /* Preview Assets.xcassets */; };
+		34ADE83C2BB3BF10005840EC /* XULA_Shuttle_ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE83B2BB3BF10005840EC /* XULA_Shuttle_ServiceTests.swift */; };
+		34ADE8462BB3BF10005840EC /* XULA_Shuttle_ServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE8452BB3BF10005840EC /* XULA_Shuttle_ServiceUITests.swift */; };
+		34ADE8482BB3BF10005840EC /* XULA_Shuttle_ServiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE8472BB3BF10005840EC /* XULA_Shuttle_ServiceUITestsLaunchTests.swift */; };
+		34ADE85A2BB3C14B005840EC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE8592BB3C14B005840EC /* LoginView.swift */; };
+		34ADE85C2BB3C164005840EC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE85B2BB3C164005840EC /* LoginViewModel.swift */; };
+		34ADE85E2BB3C3E9005840EC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE85D2BB3C3E9005840EC /* MainView.swift */; };
+		34ADE8602BB3C40A005840EC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE85F2BB3C40A005840EC /* MainViewModel.swift */; };
+		34ADE8632BB3C6F5005840EC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE8622BB3C6F5005840EC /* User.swift */; };
+		34ADE8652BB3C7BB005840EC /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE8642BB3C7BB005840EC /* RegistrationViewModel.swift */; };
+		34ADE8672BB3C8A4005840EC /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE8662BB3C8A4005840EC /* RegistrationView.swift */; };
+		34ADE8692BB3CA0B005840EC /* QueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE8682BB3CA0B005840EC /* QueueView.swift */; };
+		34ADE86B2BB3CA61005840EC /* QueueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE86A2BB3CA61005840EC /* QueueViewModel.swift */; };
+		34ADE86D2BB3CAAD005840EC /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE86C2BB3CAAD005840EC /* GoogleMapsView.swift */; };
+		34ADE86F2BB3CAEA005840EC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE86E2BB3CAEA005840EC /* HeaderView.swift */; };
+		34ADE8712BB3CB50005840EC /* XSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE8702BB3CB50005840EC /* XSButton.swift */; };
+		34ADE8732BB3CC93005840EC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE8722BB3CC93005840EC /* ProfileView.swift */; };
+		34ADE8752BB3CCFB005840EC /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE8742BB3CCFB005840EC /* ProfileViewModel.swift */; };
+		34ADE8782BB3CD6D005840EC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE8772BB3CD6D005840EC /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34ADE8382BB3BF10005840EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34ADE81F2BB3BF0E005840EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34ADE8262BB3BF0E005840EC;
+			remoteInfo = "XULA Shuttle Service";
+		};
+		34ADE8422BB3BF10005840EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34ADE81F2BB3BF0E005840EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34ADE8262BB3BF0E005840EC;
+			remoteInfo = "XULA Shuttle Service";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34ADE8272BB3BF0E005840EC /* XULA Shuttle Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XULA Shuttle Service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34ADE82A2BB3BF0E005840EC /* XULA_Shuttle_ServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XULA_Shuttle_ServiceApp.swift; sourceTree = "<group>"; };
+		34ADE82C2BB3BF0E005840EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34ADE82E2BB3BF10005840EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34ADE8312BB3BF10005840EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34ADE8372BB3BF10005840EC /* XULA Shuttle ServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XULA Shuttle ServiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34ADE83B2BB3BF10005840EC /* XULA_Shuttle_ServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XULA_Shuttle_ServiceTests.swift; sourceTree = "<group>"; };
+		34ADE8412BB3BF10005840EC /* XULA Shuttle ServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XULA Shuttle ServiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34ADE8452BB3BF10005840EC /* XULA_Shuttle_ServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XULA_Shuttle_ServiceUITests.swift; sourceTree = "<group>"; };
+		34ADE8472BB3BF10005840EC /* XULA_Shuttle_ServiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XULA_Shuttle_ServiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34ADE8592BB3C14B005840EC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		34ADE85B2BB3C164005840EC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		34ADE85D2BB3C3E9005840EC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		34ADE85F2BB3C40A005840EC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		34ADE8622BB3C6F5005840EC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		34ADE8642BB3C7BB005840EC /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		34ADE8662BB3C8A4005840EC /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		34ADE8682BB3CA0B005840EC /* QueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueView.swift; sourceTree = "<group>"; };
+		34ADE86A2BB3CA61005840EC /* QueueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueViewModel.swift; sourceTree = "<group>"; };
+		34ADE86C2BB3CAAD005840EC /* GoogleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsView.swift; sourceTree = "<group>"; };
+		34ADE86E2BB3CAEA005840EC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		34ADE8702BB3CB50005840EC /* XSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSButton.swift; sourceTree = "<group>"; };
+		34ADE8722BB3CC93005840EC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		34ADE8742BB3CCFB005840EC /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		34ADE8772BB3CD6D005840EC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34ADE8242BB3BF0E005840EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34ADE8342BB3BF10005840EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34ADE83E2BB3BF10005840EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34ADE81E2BB3BF0E005840EC = {
+			isa = PBXGroup;
+			children = (
+				34ADE8762BB3CD59005840EC /* Other */,
+				34ADE8612BB3C6BD005840EC /* Models */,
+				34ADE8582BB3C078005840EC /* Views */,
+				34ADE8572BB3BFE6005840EC /* ViewModels */,
+				34ADE8292BB3BF0E005840EC /* XULA Shuttle Service */,
+				34ADE83A2BB3BF10005840EC /* XULA Shuttle ServiceTests */,
+				34ADE8442BB3BF10005840EC /* XULA Shuttle ServiceUITests */,
+				34ADE8282BB3BF0E005840EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34ADE8282BB3BF0E005840EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34ADE8272BB3BF0E005840EC /* XULA Shuttle Service.app */,
+				34ADE8372BB3BF10005840EC /* XULA Shuttle ServiceTests.xctest */,
+				34ADE8412BB3BF10005840EC /* XULA Shuttle ServiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34ADE8292BB3BF0E005840EC /* XULA Shuttle Service */ = {
+			isa = PBXGroup;
+			children = (
+				34ADE82A2BB3BF0E005840EC /* XULA_Shuttle_ServiceApp.swift */,
+				34ADE82E2BB3BF10005840EC /* Assets.xcassets */,
+				34ADE8302BB3BF10005840EC /* Preview Content */,
+			);
+			path = "XULA Shuttle Service";
+			sourceTree = "<group>";
+		};
+		34ADE8302BB3BF10005840EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				34ADE8312BB3BF10005840EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34ADE83A2BB3BF10005840EC /* XULA Shuttle ServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				34ADE83B2BB3BF10005840EC /* XULA_Shuttle_ServiceTests.swift */,
+			);
+			path = "XULA Shuttle ServiceTests";
+			sourceTree = "<group>";
+		};
+		34ADE8442BB3BF10005840EC /* XULA Shuttle ServiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34ADE8452BB3BF10005840EC /* XULA_Shuttle_ServiceUITests.swift */,
+				34ADE8472BB3BF10005840EC /* XULA_Shuttle_ServiceUITestsLaunchTests.swift */,
+			);
+			path = "XULA Shuttle ServiceUITests";
+			sourceTree = "<group>";
+		};
+		34ADE8572BB3BFE6005840EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				34ADE85B2BB3C164005840EC /* LoginViewModel.swift */,
+				34ADE85F2BB3C40A005840EC /* MainViewModel.swift */,
+				34ADE8642BB3C7BB005840EC /* RegistrationViewModel.swift */,
+				34ADE86A2BB3CA61005840EC /* QueueViewModel.swift */,
+				34ADE8742BB3CCFB005840EC /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		34ADE8582BB3C078005840EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34ADE82C2BB3BF0E005840EC /* ContentView.swift */,
+				34ADE8592BB3C14B005840EC /* LoginView.swift */,
+				34ADE85D2BB3C3E9005840EC /* MainView.swift */,
+				34ADE8662BB3C8A4005840EC /* RegistrationView.swift */,
+				34ADE8682BB3CA0B005840EC /* QueueView.swift */,
+				34ADE86C2BB3CAAD005840EC /* GoogleMapsView.swift */,
+				34ADE86E2BB3CAEA005840EC /* HeaderView.swift */,
+				34ADE8702BB3CB50005840EC /* XSButton.swift */,
+				34ADE8722BB3CC93005840EC /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34ADE8612BB3C6BD005840EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				34ADE8622BB3C6F5005840EC /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34ADE8762BB3CD59005840EC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				34ADE8772BB3CD6D005840EC /* Extensions.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34ADE8262BB3BF0E005840EC /* XULA Shuttle Service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34ADE84B2BB3BF10005840EC /* Build configuration list for PBXNativeTarget "XULA Shuttle Service" */;
+			buildPhases = (
+				34ADE8232BB3BF0E005840EC /* Sources */,
+				34ADE8242BB3BF0E005840EC /* Frameworks */,
+				34ADE8252BB3BF0E005840EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XULA Shuttle Service";
+			productName = "XULA Shuttle Service";
+			productReference = 34ADE8272BB3BF0E005840EC /* XULA Shuttle Service.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34ADE8362BB3BF10005840EC /* XULA Shuttle ServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34ADE84E2BB3BF10005840EC /* Build configuration list for PBXNativeTarget "XULA Shuttle ServiceTests" */;
+			buildPhases = (
+				34ADE8332BB3BF10005840EC /* Sources */,
+				34ADE8342BB3BF10005840EC /* Frameworks */,
+				34ADE8352BB3BF10005840EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34ADE8392BB3BF10005840EC /* PBXTargetDependency */,
+			);
+			name = "XULA Shuttle ServiceTests";
+			productName = "XULA Shuttle ServiceTests";
+			productReference = 34ADE8372BB3BF10005840EC /* XULA Shuttle ServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34ADE8402BB3BF10005840EC /* XULA Shuttle ServiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34ADE8512BB3BF10005840EC /* Build configuration list for PBXNativeTarget "XULA Shuttle ServiceUITests" */;
+			buildPhases = (
+				34ADE83D2BB3BF10005840EC /* Sources */,
+				34ADE83E2BB3BF10005840EC /* Frameworks */,
+				34ADE83F2BB3BF10005840EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34ADE8432BB3BF10005840EC /* PBXTargetDependency */,
+			);
+			name = "XULA Shuttle ServiceUITests";
+			productName = "XULA Shuttle ServiceUITests";
+			productReference = 34ADE8412BB3BF10005840EC /* XULA Shuttle ServiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34ADE81F2BB3BF0E005840EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					34ADE8262BB3BF0E005840EC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					34ADE8362BB3BF10005840EC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 34ADE8262BB3BF0E005840EC;
+					};
+					34ADE8402BB3BF10005840EC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 34ADE8262BB3BF0E005840EC;
+					};
+				};
+			};
+			buildConfigurationList = 34ADE8222BB3BF0E005840EC /* Build configuration list for PBXProject "XULA Shuttle Service" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34ADE81E2BB3BF0E005840EC;
+			productRefGroup = 34ADE8282BB3BF0E005840EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34ADE8262BB3BF0E005840EC /* XULA Shuttle Service */,
+				34ADE8362BB3BF10005840EC /* XULA Shuttle ServiceTests */,
+				34ADE8402BB3BF10005840EC /* XULA Shuttle ServiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34ADE8252BB3BF0E005840EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ADE8322BB3BF10005840EC /* Preview Assets.xcassets in Resources */,
+				34ADE82F2BB3BF10005840EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34ADE8352BB3BF10005840EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34ADE83F2BB3BF10005840EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34ADE8232BB3BF0E005840EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ADE8712BB3CB50005840EC /* XSButton.swift in Sources */,
+				34ADE86D2BB3CAAD005840EC /* GoogleMapsView.swift in Sources */,
+				34ADE85C2BB3C164005840EC /* LoginViewModel.swift in Sources */,
+				34ADE85A2BB3C14B005840EC /* LoginView.swift in Sources */,
+				34ADE86B2BB3CA61005840EC /* QueueViewModel.swift in Sources */,
+				34ADE82D2BB3BF0E005840EC /* ContentView.swift in Sources */,
+				34ADE8672BB3C8A4005840EC /* RegistrationView.swift in Sources */,
+				34ADE8732BB3CC93005840EC /* ProfileView.swift in Sources */,
+				34ADE85E2BB3C3E9005840EC /* MainView.swift in Sources */,
+				34ADE82B2BB3BF0E005840EC /* XULA_Shuttle_ServiceApp.swift in Sources */,
+				34ADE8652BB3C7BB005840EC /* RegistrationViewModel.swift in Sources */,
+				34ADE8602BB3C40A005840EC /* MainViewModel.swift in Sources */,
+				34ADE8692BB3CA0B005840EC /* QueueView.swift in Sources */,
+				34ADE8632BB3C6F5005840EC /* User.swift in Sources */,
+				34ADE8782BB3CD6D005840EC /* Extensions.swift in Sources */,
+				34ADE8752BB3CCFB005840EC /* ProfileViewModel.swift in Sources */,
+				34ADE86F2BB3CAEA005840EC /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34ADE8332BB3BF10005840EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ADE83C2BB3BF10005840EC /* XULA_Shuttle_ServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34ADE83D2BB3BF10005840EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ADE8482BB3BF10005840EC /* XULA_Shuttle_ServiceUITestsLaunchTests.swift in Sources */,
+				34ADE8462BB3BF10005840EC /* XULA_Shuttle_ServiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34ADE8392BB3BF10005840EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34ADE8262BB3BF0E005840EC /* XULA Shuttle Service */;
+			targetProxy = 34ADE8382BB3BF10005840EC /* PBXContainerItemProxy */;
+		};
+		34ADE8432BB3BF10005840EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34ADE8262BB3BF0E005840EC /* XULA Shuttle Service */;
+			targetProxy = 34ADE8422BB3BF10005840EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34ADE8492BB3BF10005840EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34ADE84A2BB3BF10005840EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34ADE84C2BB3BF10005840EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XULA Shuttle Service/Preview Content\"";
+				DEVELOPMENT_TEAM = ACQQR6MM9J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaleb-Riley.XULA-Shuttle-Service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34ADE84D2BB3BF10005840EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XULA Shuttle Service/Preview Content\"";
+				DEVELOPMENT_TEAM = ACQQR6MM9J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaleb-Riley.XULA-Shuttle-Service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34ADE84F2BB3BF10005840EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACQQR6MM9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaleb-Riley.XULA-Shuttle-ServiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XULA Shuttle Service.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XULA Shuttle Service";
+			};
+			name = Debug;
+		};
+		34ADE8502BB3BF10005840EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACQQR6MM9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaleb-Riley.XULA-Shuttle-ServiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XULA Shuttle Service.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XULA Shuttle Service";
+			};
+			name = Release;
+		};
+		34ADE8522BB3BF10005840EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACQQR6MM9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaleb-Riley.XULA-Shuttle-ServiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "XULA Shuttle Service";
+			};
+			name = Debug;
+		};
+		34ADE8532BB3BF10005840EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACQQR6MM9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaleb-Riley.XULA-Shuttle-ServiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "XULA Shuttle Service";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34ADE8222BB3BF0E005840EC /* Build configuration list for PBXProject "XULA Shuttle Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34ADE8492BB3BF10005840EC /* Debug */,
+				34ADE84A2BB3BF10005840EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34ADE84B2BB3BF10005840EC /* Build configuration list for PBXNativeTarget "XULA Shuttle Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34ADE84C2BB3BF10005840EC /* Debug */,
+				34ADE84D2BB3BF10005840EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34ADE84E2BB3BF10005840EC /* Build configuration list for PBXNativeTarget "XULA Shuttle ServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34ADE84F2BB3BF10005840EC /* Debug */,
+				34ADE8502BB3BF10005840EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34ADE8512BB3BF10005840EC /* Build configuration list for PBXNativeTarget "XULA Shuttle ServiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34ADE8522BB3BF10005840EC /* Debug */,
+				34ADE8532BB3BF10005840EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34ADE81F2BB3BF0E005840EC /* Project object */;
+}
