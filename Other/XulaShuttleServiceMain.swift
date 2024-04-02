@@ -1,8 +1,8 @@
 //
-//  XULA_Shuttle_ServiceApp.swift
+//  XulaShuttleServiceMain.swift
 //  XULA Shuttle Service
 //
-//  Created by Kaleb Riley on 3/26/24.
+//  Created by Kaleb Riley on 4/2/24.
 //
 
 import Foundation
@@ -11,7 +11,7 @@ import SwiftUI
 import GoogleMaps
 
 @main
-struct XULA_Shuttle_ServiceApp: App {
+struct XulaShuttleServiceMain: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
 //    init() {

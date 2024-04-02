@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import FirebaseAuth
+import FirebaseAuth // maybe needs to be firebaseAUth
 import Foundation
 import SwiftUI
 
