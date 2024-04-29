@@ -1,0 +1,1 @@
+This app is my capstone project, it serves as a demo for a potential shuttle app for Xavier that would be able to tell students their location and how long it would take to get to the closest shuttle. current functionalities are registration, login, and routing to Xavier's horseshoe.
