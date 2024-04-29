@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyCMjWbdZ0d0-OA8csdcp_vfSc3DTvcVUBA</string>
+	<string>your api key</string>
 	<key>GCM_SENDER_ID</key>
 	<string>469519003688</string>
 	<key>PLIST_VERSION</key>
@@ -15,15 +15,15 @@
 	<key>STORAGE_BUCKET</key>
 	<string>xula-shuttle-service.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:469519003688:ios:f05c37df425ddbd38a451d</string>
 </dict>

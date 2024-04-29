@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+import FirebaseAuth
 
 struct LoginView: View {
    @StateObject var viewModel = LoginViewModel()
@@ -38,6 +39,7 @@ struct LoginView: View {
                         title: "Log In",
                         background: .blue)
                     {
+                
                             viewModel.login()
                     }
 //                    .padding()

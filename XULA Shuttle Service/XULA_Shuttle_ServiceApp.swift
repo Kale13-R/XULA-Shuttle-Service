@@ -9,6 +9,7 @@ import Foundation
 import FirebaseCore
 import SwiftUI
 import GoogleMaps
+import Firebase
 
 @main
 struct XULA_Shuttle_ServiceApp: App {
@@ -26,8 +27,12 @@ struct XULA_Shuttle_ServiceApp: App {
 }
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        
+        let providerFactory = AppCheckDebugProviderFactory()
+        AppCheck.setAppCheckProviderFactory(providerFactory)
+        
         FirebaseApp.configure()
-        GMSServices.provideAPIKey("AIzaSyB9-PRq_aAjtruhMk09elnykJSZduaOUME")
+//        GMSServices.provideAPIKey("your API Key")
         return true
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34A5DBE92BD185DE00713C32 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5DBE82BD185DE00713C32 /* LocationManager.swift */; };
 		34ADE82B2BB3BF0E005840EC /* XULA_Shuttle_ServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE82A2BB3BF0E005840EC /* XULA_Shuttle_ServiceApp.swift */; };
 		34ADE82D2BB3BF0E005840EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE82C2BB3BF0E005840EC /* ContentView.swift */; };
 		34ADE82F2BB3BF10005840EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34ADE82E2BB3BF10005840EC /* Assets.xcassets */; };
@@ -38,9 +39,23 @@
 		34ADE8882BB76AD2005840EC /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = 34ADE8872BB76AD2005840EC /* GoogleMapsBase */; };
 		34ADE88A2BB76AD2005840EC /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 34ADE8892BB76AD2005840EC /* GoogleMapsCore */; };
 		34ADE88C2BB76AD2005840EC /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; productRef = 34ADE88B2BB76AD2005840EC /* GoogleMapsM4B */; };
+		34B2C0002BCDA83F007F2F92 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B2BFFF2BCDA83F007F2F92 /* MapViewController.swift */; };
 		34C2C0192BBC893500592B4D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34C2C0182BBC893500592B4D /* GoogleService-Info.plist */; };
 		34C2C0DC2BBC8C8300592B4D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 34C2C0DB2BBC8C8300592B4D /* FirebaseAuth */; };
 		34C2C0DE2BBC8CB100592B4D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 34C2C0DD2BBC8CB100592B4D /* FirebaseFirestore */; };
+		34C2C0E62BBEB89900592B4D /* LSU icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C2C0E52BBEB89900592B4D /* LSU icon.png */; };
+		34C2C0E72BBEB89900592B4D /* LSU icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C2C0E52BBEB89900592B4D /* LSU icon.png */; };
+		34C2C0E82BBEB89900592B4D /* LSU icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C2C0E52BBEB89900592B4D /* LSU icon.png */; };
+		34C2C0EE2BBEB95800592B4D /* UNO_Icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34C2C0ED2BBEB95800592B4D /* UNO_Icon.jpeg */; };
+		34C2C0EF2BBEB95800592B4D /* UNO_Icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34C2C0ED2BBEB95800592B4D /* UNO_Icon.jpeg */; };
+		34C2C0F02BBEB95800592B4D /* UNO_Icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34C2C0ED2BBEB95800592B4D /* UNO_Icon.jpeg */; };
+		34C2C0F22BBEB98A00592B4D /* XULA_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C2C0F12BBEB98A00592B4D /* XULA_Icon.png */; };
+		34C2C0F32BBEB98A00592B4D /* XULA_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C2C0F12BBEB98A00592B4D /* XULA_Icon.png */; };
+		34C2C0F42BBEB98A00592B4D /* XULA_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C2C0F12BBEB98A00592B4D /* XULA_Icon.png */; };
+		34C2C0F62BBF22EB00592B4D /* GoogleMapsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2C0F52BBF22EB00592B4D /* GoogleMapsViewModel.swift */; };
+		34C2C0F72BBF22EB00592B4D /* GoogleMapsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2C0F52BBF22EB00592B4D /* GoogleMapsViewModel.swift */; };
+		34C2C0F82BBF22EB00592B4D /* GoogleMapsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2C0F52BBF22EB00592B4D /* GoogleMapsViewModel.swift */; };
+		34C78B802BDAA2790043E740 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C78B7F2BDAA2790043E740 /* GlobalVariables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +76,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34A5DBE82BD185DE00713C32 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		34ADE8272BB3BF0E005840EC /* XULA Shuttle Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XULA Shuttle Service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34ADE82A2BB3BF0E005840EC /* XULA_Shuttle_ServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XULA_Shuttle_ServiceApp.swift; sourceTree = "<group>"; };
 		34ADE82C2BB3BF0E005840EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,7 +102,16 @@
 		34ADE8722BB3CC93005840EC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		34ADE8742BB3CCFB005840EC /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		34ADE8772BB3CD6D005840EC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		34B2BFFF2BCDA83F007F2F92 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		34C2C0182BBC893500592B4D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34C2C0E52BBEB89900592B4D /* LSU icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LSU icon.png"; path = "../../../Downloads/LSU icon.png"; sourceTree = "<group>"; };
+		34C2C0ED2BBEB95800592B4D /* UNO_Icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UNO_Icon.jpeg; path = ../../../Downloads/UNO_Icon.jpeg; sourceTree = "<group>"; };
+		34C2C0F12BBEB98A00592B4D /* XULA_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = XULA_Icon.png; path = ../../../Downloads/XULA_Icon.png; sourceTree = "<group>"; };
+		34C2C0F52BBF22EB00592B4D /* GoogleMapsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsViewModel.swift; sourceTree = "<group>"; };
+		34C78B7C2BD82CFD0043E740 /* UC GPX.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "UC GPX.gpx"; path = "../../Downloads/UC GPX.gpx"; sourceTree = "<group>"; };
+		34C78B7D2BD82DD80043E740 /* XAVIER SOUTH GPX.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "XAVIER SOUTH GPX.gpx"; path = "../../Downloads/XAVIER SOUTH GPX.gpx"; sourceTree = "<group>"; };
+		34C78B7E2BDA84170043E740 /* NCF GPX.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "NCF GPX.gpx"; path = "../../Downloads/NCF GPX.gpx"; sourceTree = "<group>"; };
+		34C78B7F2BDAA2790043E740 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +153,9 @@
 		34ADE81E2BB3BF0E005840EC = {
 			isa = PBXGroup;
 			children = (
+				34C78B7E2BDA84170043E740 /* NCF GPX.gpx */,
+				34C78B7D2BD82DD80043E740 /* XAVIER SOUTH GPX.gpx */,
+				34C78B7C2BD82CFD0043E740 /* UC GPX.gpx */,
 				34C2C0182BBC893500592B4D /* GoogleService-Info.plist */,
 				34ADE8762BB3CD59005840EC /* Other */,
 				34ADE8612BB3C6BD005840EC /* Models */,
@@ -156,6 +184,9 @@
 			children = (
 				34ADE82A2BB3BF0E005840EC /* XULA_Shuttle_ServiceApp.swift */,
 				34ADE82E2BB3BF10005840EC /* Assets.xcassets */,
+				34C2C0E52BBEB89900592B4D /* LSU icon.png */,
+				34C2C0ED2BBEB95800592B4D /* UNO_Icon.jpeg */,
+				34C2C0F12BBEB98A00592B4D /* XULA_Icon.png */,
 				34ADE8302BB3BF10005840EC /* Preview Content */,
 			);
 			path = "XULA Shuttle Service";
@@ -189,11 +220,13 @@
 		34ADE8572BB3BFE6005840EC /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				34B2BFFF2BCDA83F007F2F92 /* MapViewController.swift */,
 				34ADE85B2BB3C164005840EC /* LoginViewModel.swift */,
 				34ADE85F2BB3C40A005840EC /* MainViewModel.swift */,
 				34ADE8642BB3C7BB005840EC /* RegistrationViewModel.swift */,
 				34ADE86A2BB3CA61005840EC /* QueueViewModel.swift */,
 				34ADE8742BB3CCFB005840EC /* ProfileViewModel.swift */,
+				34C2C0F52BBF22EB00592B4D /* GoogleMapsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +259,8 @@
 			isa = PBXGroup;
 			children = (
 				34ADE8772BB3CD6D005840EC /* Extensions.swift */,
+				34A5DBE82BD185DE00713C32 /* LocationManager.swift */,
+				34C78B7F2BDAA2790043E740 /* GlobalVariables.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -358,8 +393,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C2C0EE2BBEB95800592B4D /* UNO_Icon.jpeg in Resources */,
+				34C2C0E62BBEB89900592B4D /* LSU icon.png in Resources */,
 				34ADE8322BB3BF10005840EC /* Preview Assets.xcassets in Resources */,
 				34ADE82F2BB3BF10005840EC /* Assets.xcassets in Resources */,
+				34C2C0F22BBEB98A00592B4D /* XULA_Icon.png in Resources */,
 				34C2C0192BBC893500592B4D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +406,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C2C0E72BBEB89900592B4D /* LSU icon.png in Resources */,
+				34C2C0F32BBEB98A00592B4D /* XULA_Icon.png in Resources */,
+				34C2C0EF2BBEB95800592B4D /* UNO_Icon.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +416,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C2C0E82BBEB89900592B4D /* LSU icon.png in Resources */,
+				34C2C0F42BBEB98A00592B4D /* XULA_Icon.png in Resources */,
+				34C2C0F02BBEB95800592B4D /* UNO_Icon.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,17 +433,21 @@
 				34ADE86D2BB3CAAD005840EC /* GoogleMapsView.swift in Sources */,
 				34ADE85C2BB3C164005840EC /* LoginViewModel.swift in Sources */,
 				34ADE85A2BB3C14B005840EC /* LoginView.swift in Sources */,
+				34C2C0F62BBF22EB00592B4D /* GoogleMapsViewModel.swift in Sources */,
 				34ADE86B2BB3CA61005840EC /* QueueViewModel.swift in Sources */,
 				34ADE82D2BB3BF0E005840EC /* ContentView.swift in Sources */,
+				34B2C0002BCDA83F007F2F92 /* MapViewController.swift in Sources */,
 				34ADE8672BB3C8A4005840EC /* RegistrationView.swift in Sources */,
 				34ADE8732BB3CC93005840EC /* ProfileView.swift in Sources */,
 				34ADE85E2BB3C3E9005840EC /* MainView.swift in Sources */,
 				34ADE82B2BB3BF0E005840EC /* XULA_Shuttle_ServiceApp.swift in Sources */,
+				34A5DBE92BD185DE00713C32 /* LocationManager.swift in Sources */,
 				34ADE8652BB3C7BB005840EC /* RegistrationViewModel.swift in Sources */,
 				34ADE8602BB3C40A005840EC /* MainViewModel.swift in Sources */,
 				34ADE8692BB3CA0B005840EC /* QueueView.swift in Sources */,
 				34ADE8632BB3C6F5005840EC /* User.swift in Sources */,
 				34ADE8782BB3CD6D005840EC /* Extensions.swift in Sources */,
+				34C78B802BDAA2790043E740 /* GlobalVariables.swift in Sources */,
 				34ADE8752BB3CCFB005840EC /* ProfileViewModel.swift in Sources */,
 				34ADE86F2BB3CAEA005840EC /* HeaderView.swift in Sources */,
 			);
@@ -409,6 +457,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C2C0F72BBF22EB00592B4D /* GoogleMapsViewModel.swift in Sources */,
 				34ADE83C2BB3BF10005840EC /* XULA_Shuttle_ServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +467,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34ADE8482BB3BF10005840EC /* XULA_Shuttle_ServiceUITestsLaunchTests.swift in Sources */,
+				34C2C0F82BBF22EB00592B4D /* GoogleMapsViewModel.swift in Sources */,
 				34ADE8462BB3BF10005840EC /* XULA_Shuttle_ServiceUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,6 +618,7 @@
 				DEVELOPMENT_TEAM = ACQQR6MM9J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to access your location to accurately find the nearest shuttle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -597,6 +648,7 @@
 				DEVELOPMENT_TEAM = ACQQR6MM9J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to access your location to accurately find the nearest shuttle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

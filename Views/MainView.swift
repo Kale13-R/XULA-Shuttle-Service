@@ -18,6 +18,7 @@ struct MainView: View {
         if viewModel.isSignedIn,
            !viewModel.currentUserID.isEmpty {
             accountView
+//            LoginView()
             
         } else {
             LoginView()
@@ -27,13 +28,14 @@ struct MainView: View {
     @ViewBuilder
     var accountView: some View {
         TabView {
+            
             QueueView(userId: viewModel.currentUserID)
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
             ProfileVIew()
                 .tabItem {
-                    Label("Profile", systemImage:"person.circle")
+                    Label("Queue", systemImage:"person.circle")
                 }
         }
     }

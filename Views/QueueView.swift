@@ -9,9 +9,12 @@ import Foundation
 import SwiftUI
 import UIKit
 import GoogleMaps
+//import GlobalVariables
+
 
 struct QueueView: View {
     @StateObject var viewModel = QueueViewModel()
+    let travelTime = globalTravelTime
     
     private let userId: String
     
@@ -22,17 +25,28 @@ struct QueueView: View {
     var body: some View {
         NavigationView {
             VStack {
-                GoogleMapsView()
-                    .frame(height:600)
-                    .padding(.bottom, 50)
+                
+                
+//                if let travelTime = globalTravelTime {
+//                    Text("The travel time from earlier is: \(travelTime)")
+//                        .padding(.bottom, 200)
+//                }
+                
+                
+                BusMapViewRepresentable()
+                    .frame(height:800)
+//                    .padding(.top, 50)
+                    .padding(.bottom, 175)
             }
-            .navigationTitle("Bus Queues")
+            
+            
+            .navigationTitle("Travel time: \(travelTime ?? 6) minutes")
             .toolbar {
-                Button {
+//                Button {
                     //Action
-                } label : {
-                    Image(systemName: "plus")
-                }
+//                } label : {
+//                    Image(systemName: "plus")
+//                }
             }
         }
     }
