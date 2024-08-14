@@ -14,6 +14,8 @@ class RegistrationViewModel:ObservableObject {
     @Published var name = ""
     @Published var email = ""
     @Published var password = ""
+    @Published var isRegistered = false
+    @Published var errorMessage = ""
     
     init() {}
     
@@ -28,6 +30,9 @@ class RegistrationViewModel:ObservableObject {
             }
             
             self?.insertUserRecord(id: userId)
+            DispatchQueue.main.async {
+                self?.isRegistered = true
+                }
         }
     }
     
@@ -47,13 +52,16 @@ class RegistrationViewModel:ObservableObject {
             guard !name.trimmingCharacters(in: .whitespaces).isEmpty,
                   !email.trimmingCharacters(in: .whitespaces).isEmpty,
                   !password.trimmingCharacters(in: .whitespaces).isEmpty else {
+                errorMessage = ("Please complete all fields")
             return false
         }
         
             guard email.contains("@xula.edu") else {
+                errorMessage = "Not a Xula email"
                 return false
             }
             guard password.count >= 6 else {
+                errorMessage = "Not a long enough password"
                 return false // pw
             }
         return true

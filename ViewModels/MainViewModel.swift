@@ -6,7 +6,7 @@
 //
 
 import FirebaseAuth
-import Foundation
+import Foundation 
 
 class MainViewModel: ObservableObject {
     @Published var currentUserID: String = ""

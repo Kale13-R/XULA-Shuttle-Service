@@ -68,7 +68,9 @@ struct BusMapViewRepresentable: UIViewRepresentable {
         map.addAnnotation(UChorseshoe)
         
         @ObservedObject var locationManager = LocationManager()
-        let currentLocation = locationManager.currentLocation
+        var currentLocation = locationManager.currentLocation
+        
+        print("current location is: \(currentLocation)")
         //        CLLocationCoordinate2D(currentLocation)
         
         let NCF = CLLocationCoordinate2D(latitude: 29.965612366764464, longitude: -90.10835319757462)
@@ -101,7 +103,7 @@ struct BusMapViewRepresentable: UIViewRepresentable {
             }
             globalTravelTime = Int(route.expectedTravelTime / 60)
             
-            print(route.expectedTravelTime)
+            print("expected travel time is \(route.expectedTravelTime)")
             UChorseshoe.subtitle = "Travel time: \(Int(route.expectedTravelTime / 60)) minutes" // Convert to minutes
             print("Subtitle after setting:", UChorseshoe.subtitle) // Check again
             map.addOverlay(route.polyline)

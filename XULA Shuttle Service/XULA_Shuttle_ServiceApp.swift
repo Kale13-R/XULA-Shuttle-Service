@@ -32,7 +32,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         AppCheck.setAppCheckProviderFactory(providerFactory)
         
         FirebaseApp.configure()
-//        GMSServices.provideAPIKey("your API Key")
+//        GMSServices.provideAPIKey("")
         return true
     }
 }

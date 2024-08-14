@@ -16,7 +16,7 @@ struct MainView: View {
     var body: some View {
 //        LoginView()
         if viewModel.isSignedIn,
-           !viewModel.currentUserID.isEmpty {
+           !viewModel.currentUserID.isEmpty, viewModel.currentUserID != "Z8wCLPSmGrTKWOxIZqwlCs4OjH63"{
             accountView
 //            LoginView()
             
@@ -26,6 +26,7 @@ struct MainView: View {
     }
     
     @ViewBuilder
+    
     var accountView: some View {
         TabView {
             

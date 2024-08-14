@@ -49,14 +49,14 @@ struct LoginView: View {
     //            Create Account here
                 
                 VStack {
-                    Text("New to XULA Shuttles?")
+                    Text("New to XULA Transport?")
             
                         // show reg
                     
                     NavigationLink("Create An Account.", destination: RegistrationView())
                 }
-                .padding(.bottom,50)
-                Spacer()
+                .padding(.bottom,5)
+//                Spacer()
             }
             
         }

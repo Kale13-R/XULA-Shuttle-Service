@@ -20,6 +20,7 @@ struct QueueView: View {
     
     init(userId:String) {
         self.userId = userId
+        print("user ID is: \(userId)")
     }
     
     var body: some View {
@@ -36,7 +37,7 @@ struct QueueView: View {
                 BusMapViewRepresentable()
                     .frame(height:800)
 //                    .padding(.top, 50)
-                    .padding(.bottom, 175)
+                    .padding(.bottom, 200)
             }
             
             

@@ -14,7 +14,7 @@ class LoginViewModel: ObservableObject {
     @Published var email = ""
     @Published var password = ""
     @Published var errorMessage = ""
-//    @published private isSignedIn = false
+    @Published var isSignedIn = false
     
     init() {}
     
@@ -23,12 +23,13 @@ class LoginViewModel: ObservableObject {
             return
         }
         
-        print("called")
+        print("login successfully called")
         
         //Try to login
         
         Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in
                       guard let strongSelf = self else { return }
+            
 //
 //        NavigationLink(destination: QueueView(userId: userid)) {
 //            Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in
@@ -42,6 +43,7 @@ class LoginViewModel: ObservableObject {
 //                } else {
 //
 //                }
+            
             }
 
         }
